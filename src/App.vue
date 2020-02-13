@@ -79,6 +79,11 @@
       type: 'icon-download',
       href: 'https://thesadboy.synology.me:5556/download'
     },
+    {
+      title: 'JDY',
+      type: 'icon-jdy',
+      href: 'http://jdy.zhangliang.cc'
+    },
     // {
     //   title: 'PHOTO',
     //   type: 'icon-xiangce',
