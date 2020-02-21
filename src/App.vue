@@ -12,9 +12,9 @@
         </a-row>
       </div>
       <a-row>
-        <a-col :span="12"
-               :offset="6">
-          <a-list :grid="{ gutter: 16, xs: 2, sm: 2, md: 4, lg: 4, xl: 4, xxl: 4 }"
+        <a-col :span="16"
+               :offset="4">
+          <a-list :grid="{ gutter: 16, xs: 2, sm: 2, md: 4, lg: 4, xl: 4, xxl: 6 }"
                   :dataSource="data">
             <a-list-item class="lists"
                          slot="renderItem"
@@ -42,53 +42,53 @@
     {
       title: 'ESXI',
       type: 'icon-icon-VMware',
-      href: 'https://home.zhangliang.cc:8001'
+      href: 'https://esxi.zhangliang.cc:8443'
     },
     {
-      title: 'LEDE',
+      title: 'IKUAI',
+      type: 'icon-luyou',
+      href: 'https://ikuai.zhangliang.cc:8443'
+    },
+    {
+      title: 'OPENWRT',
       type: 'icon-luyouqi',
-      href: 'https://home.zhangliang.cc:8000'
+      href: 'https://openwrt.zhangliang.cc:8443'
     },
     {
-      title: 'R6900',
-      type: 'icon-luyou1',
-      href: 'http://router.zhangliang.cc'
+      title: 'SIGN',
+      type: 'icon-qiandao',
+      href: 'https://qiandao.zhangliang.cc:8443'
     },
     {
       title: 'NAS',
       type: 'icon-weimingming-',
-      href: 'https://thesadboy.synology.me:5556'
+      href: 'https://nas.zhangliang.cc:8443'
     },
-    // {
-    //   title: 'IKUAI',
-    //   type: 'icon-luyou',
-    //   href: 'http://home.addxx.com:5006'
-    // },
     {
       title: 'MOVIE',
       type: 'icon-movie',
-      href: 'https://thesadboy.synology.me:5556/video'
+      href: 'https://nas.zhangliang.cc:8443/video'
     },
     {
       title: 'DISK',
       type: 'icon-disc',
-      href: 'https://thesadboy.synology.me:5556/file'
+      href: 'https://nas.zhangliang.cc:8443/file'
     },
     {
       title: 'DOWNLOAD',
       type: 'icon-download',
-      href: 'https://thesadboy.synology.me:5556/download'
+      href: 'https://nas.zhangliang.cc:8443/download'
+    },
+    {
+      title: 'R6900',
+      type: 'icon-luyou1',
+      href: 'https://router.zhangliang.cc:8443'
     },
     {
       title: 'JDY',
       type: 'icon-jdy',
       href: 'http://jdy.zhangliang.cc'
-    },
-    // {
-    //   title: 'PHOTO',
-    //   type: 'icon-xiangce',
-    //   href: 'https://thesadboy.synology.me:5556/download'
-    // }
+    }
   ];
   export default {
     name: 'app',
