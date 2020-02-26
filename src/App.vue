@@ -87,7 +87,7 @@
     {
       title: 'JDY',
       type: 'icon-jdy',
-      href: 'http://jdy.zhangliang.cc'
+      href: 'https://jdy.zhangliang.cc:8443'
     }
   ];
   export default {
