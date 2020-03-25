@@ -75,6 +75,11 @@
       href: 'https://nas.zhangliang.cc:8443/file'
     },
     {
+      title: 'PHOTO',
+      type: 'icon-xiangce',
+      href: 'http://thesadboy.synology.me:81/photo/'
+    },
+    {
       title: 'DOWNLOAD',
       type: 'icon-download',
       href: 'https://nas.zhangliang.cc:8443/download'
