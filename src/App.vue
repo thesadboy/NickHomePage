@@ -77,7 +77,7 @@
     {
       title: 'PHOTO',
       type: 'icon-xiangce',
-      href: 'http://thesadboy.synology.me:81/photo/'
+      href: 'https://nas.zhangliang.cc:8443/moments'
     },
     {
       title: 'DOWNLOAD',

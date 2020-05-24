@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.766b4998c22ae3a0aac256decc15a134.js"
+  "/precache-manifest.39b31c7d4217f292b6fdf67eae487883.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "nas"});
